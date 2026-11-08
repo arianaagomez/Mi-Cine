@@ -1,0 +1,83 @@
+/* =========================================
+   MiCine — solo fuente y colores.
+   Todo lo demás son clases de Bootstrap.
+   ========================================= */
+
+/* ---------- Fuente y paleta ---------- */
+:root,
+[data-bs-theme="dark"] {
+	--bs-body-font-family: "Poppins", sans-serif;
+
+	/* Fondo (rosa casi negro) y texto */
+	--bs-body-bg: #1f0811;
+	--bs-body-bg-rgb: 31, 8, 17;
+	--bs-body-color: #fbeaf0;
+	--bs-body-color-rgb: 251, 234, 240;
+	--bs-emphasis-color: #fbeaf0;
+
+	/* Tarjetas y texto secundario */
+	--bs-secondary-bg: #33101e;
+	--bs-secondary-bg-rgb: 51, 16, 30;
+	--bs-tertiary-bg: #33101e;
+	--bs-secondary-color: #ed93b1;
+
+	/* Bordes */
+	--bs-border-color: #72243e;
+	--bs-border-color-translucent: #72243e;
+
+	/* Rosa pastel: text-primary, bg-primary, link-primary */
+	--bs-primary: #f4c0d1;
+	--bs-primary-rgb: 244, 192, 209;
+	--bs-primary-text-emphasis: #f4c0d1;
+	--bs-link-color: #f4c0d1;
+	--bs-link-color-rgb: 244, 192, 209;
+	--bs-link-hover-color: #ed93b1;
+	--bs-link-hover-color-rgb: 237, 147, 177;
+
+	/* Rojo de error */
+	--bs-danger: #f09595;
+	--bs-danger-rgb: 240, 149, 149;
+	--bs-danger-bg-subtle: #501313;
+	--bs-danger-border-subtle: #a32d2d;
+	--bs-danger-text-emphasis: #f7c1c1;
+	--bs-form-invalid-color: #f09595;
+	--bs-form-invalid-border-color: #e24b4a;
+
+	--bs-focus-ring-color: rgba(244, 192, 209, 0.3);
+}
+
+/* ---------- Botones (Bootstrap compila sus colores aparte) ---------- */
+.btn-primary {
+	--bs-btn-color: #1f0811;
+	--bs-btn-bg: #f4c0d1;
+	--bs-btn-border-color: #f4c0d1;
+	--bs-btn-hover-color: #1f0811;
+	--bs-btn-hover-bg: #ed93b1;
+	--bs-btn-hover-border-color: #ed93b1;
+	--bs-btn-active-color: #1f0811;
+	--bs-btn-active-bg: #d4537e;
+	--bs-btn-active-border-color: #d4537e;
+}
+
+.btn-outline-primary {
+	--bs-btn-color: #f4c0d1;
+	--bs-btn-border-color: #72243e;
+	--bs-btn-hover-color: #fbeaf0;
+	--bs-btn-hover-bg: #72243e;
+	--bs-btn-hover-border-color: #72243e;
+	--bs-btn-active-color: #1f0811;
+	--bs-btn-active-bg: #f4c0d1;
+	--bs-btn-active-border-color: #f4c0d1;
+}
+
+.form-control:focus {
+	border-color: #f4c0d1;
+}
+
+/* ---------- Color de la miniatura según el género ---------- */
+.genero-comedia   { background-color: #ed93b1; color: #1f0811; }
+.genero-drama     { background-color: #993556; color: #fbeaf0; }
+.genero-terror    { background-color: #72243e; color: #fbeaf0; }
+.genero-animacion { background-color: #f4c0d1; color: #4b1528; }
+.genero-cienciaf  { background-color: #d4537e; color: #fbeaf0; }
+.genero-accion    { background-color: #4b1528; color: #f4c0d1; }
