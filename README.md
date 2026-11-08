@@ -4,7 +4,7 @@
 
 MiCine es una aplicación web para guardar y puntuar las películas y series que mirás. Cada usuario tiene su propia lista, donde puede agregar títulos, ponerles de 1 a 5 estrellas, filtrarlos y borrarlos.
 
-🔗 **Demo online:** [https://TU-SITIO.netlify.app](https://TU-SITIO.netlify.app)
+🔗 **Demo online:** (micinema.netlify.app)
 
 ---
 
@@ -82,4 +82,4 @@ Para compartir los datos entre dispositivos habría que conectar una **base de d
 
 ## 👤 Autor
 
-**TU NOMBRE** · Proyecto para el curso de **NOMBRE DEL CURSO**.
+**Ariana Cecco Gomez** · Proyecto para el curso de **Media Pila**.
